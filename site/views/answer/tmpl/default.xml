@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+	<layout title="COM_URLPOLLS_MENU_ANSWER_TITLE" option="COM_URLPOLLS_MENU_ANSWER_OPTION">
+		<message>
+			<![CDATA[COM_URLPOLLS_MENU_ANSWER_DESC]]>
+		</message>
+	</layout>
+</metadata>

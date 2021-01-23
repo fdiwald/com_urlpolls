@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_urlpolls">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.options" title="JACTION_OPTIONS" description="JACTION_OPTIONS_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="core.export" title="COM_URLPOLLS_EXPORT_DATA" description="COM_URLPOLLS_EXPORT_DATA_DESC" />
+		<action name="core.import" title="COM_URLPOLLS_IMPORT_DATA" description="COM_URLPOLLS_IMPORT_DATA_DESC" />
+		<action name="core.batch" title="COM_URLPOLLS_USE_BATCH" description="COM_URLPOLLS_USE_BATCH_DESC" />
+		<action name="core.version" title="COM_URLPOLLS_EDIT_VERSIONS" description="COM_URLPOLLS_EDIT_VERSIONS_DESC" />
+		<action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="core.edit.state" title="JACTION_EDITSTATE" description="JACTION_ACCESS_EDITSTATE_DESC" />
+		<action name="core.edit.own" title="JACTION_EDITOWN" description="JACTION_EDITOWN_COMPONENT_DESC" />
+		<action name="core.edit.created_by" title="COM_URLPOLLS_EDIT_CREATED_BY" description="COM_URLPOLLS_EDIT_CREATED_BY_DESC" />
+		<action name="core.edit.created" title="COM_URLPOLLS_EDIT_CREATED_DATE" description="COM_URLPOLLS_EDIT_CREATED_DATE_DESC" />
+		<action name="person.access" title="COM_URLPOLLS_PERSONS_ACCESS" description="COM_URLPOLLS_PERSONS_ACCESS_DESC" />
+		<action name="person.batch" title="COM_URLPOLLS_PERSONS_BATCH_USE" description="COM_URLPOLLS_PERSONS_BATCH_USE_DESC" />
+		<action name="person.dashboard_list" title="COM_URLPOLLS_PERSONS_DASHBOARD_LIST" description="COM_URLPOLLS_PERSONS_DASHBOARD_LIST_DESC" />
+		<action name="person.version" title="COM_URLPOLLS_PERSONS_EDIT_VERSION" description="COM_URLPOLLS_PERSONS_EDIT_VERSION_DESC" />
+		<action name="person.export" title="COM_URLPOLLS_PERSONS_EXPORT" description="COM_URLPOLLS_PERSONS_EXPORT_DESC" />
+		<action name="person.import" title="COM_URLPOLLS_PERSONS_IMPORT" description="COM_URLPOLLS_PERSONS_IMPORT_DESC" />
+		<action name="person.submenu" title="COM_URLPOLLS_PERSONS_SUBMENU" description="COM_URLPOLLS_PERSONS_SUBMENU_DESC" />
+		<action name="poll.add_all_persons" title="COM_URLPOLLS_POLL_ADD_ALL_PERSONS_BUTTON_ACCESS" description="COM_URLPOLLS_POLL_ADD_ALL_PERSONS_BUTTON_ACCESS_DESC" />
+		<action name="poll.export_to_excel" title="COM_URLPOLLS_POLL_EXPORT_TO_EXCEL_BUTTON_ACCESS" description="COM_URLPOLLS_POLL_EXPORT_TO_EXCEL_BUTTON_ACCESS_DESC" />
+		<action name="poll.access" title="COM_URLPOLLS_POLLS_ACCESS" description="COM_URLPOLLS_POLLS_ACCESS_DESC" />
+		<action name="poll.batch" title="COM_URLPOLLS_POLLS_BATCH_USE" description="COM_URLPOLLS_POLLS_BATCH_USE_DESC" />
+		<action name="poll.dashboard_list" title="COM_URLPOLLS_POLLS_DASHBOARD_LIST" description="COM_URLPOLLS_POLLS_DASHBOARD_LIST_DESC" />
+		<action name="poll.version" title="COM_URLPOLLS_POLLS_EDIT_VERSION" description="COM_URLPOLLS_POLLS_EDIT_VERSION_DESC" />
+		<action name="poll.export" title="COM_URLPOLLS_POLLS_EXPORT" description="COM_URLPOLLS_POLLS_EXPORT_DESC" />
+		<action name="poll.import" title="COM_URLPOLLS_POLLS_IMPORT" description="COM_URLPOLLS_POLLS_IMPORT_DESC" />
+		<action name="poll.submenu" title="COM_URLPOLLS_POLLS_SUBMENU" description="COM_URLPOLLS_POLLS_SUBMENU_DESC" />
+		<action name="recipient.access" title="COM_URLPOLLS_RECIPIENTS_ACCESS" description="COM_URLPOLLS_RECIPIENTS_ACCESS_DESC" />
+		<action name="recipient.batch" title="COM_URLPOLLS_RECIPIENTS_BATCH_USE" description="COM_URLPOLLS_RECIPIENTS_BATCH_USE_DESC" />
+		<action name="recipient.dashboard_list" title="COM_URLPOLLS_RECIPIENTS_DASHBOARD_LIST" description="COM_URLPOLLS_RECIPIENTS_DASHBOARD_LIST_DESC" />
+		<action name="recipient.version" title="COM_URLPOLLS_RECIPIENTS_EDIT_VERSION" description="COM_URLPOLLS_RECIPIENTS_EDIT_VERSION_DESC" />
+		<action name="recipient.export" title="COM_URLPOLLS_RECIPIENTS_EXPORT" description="COM_URLPOLLS_RECIPIENTS_EXPORT_DESC" />
+		<action name="recipient.import" title="COM_URLPOLLS_RECIPIENTS_IMPORT" description="COM_URLPOLLS_RECIPIENTS_IMPORT_DESC" />
+		<action name="recipient.submenu" title="COM_URLPOLLS_RECIPIENTS_SUBMENU" description="COM_URLPOLLS_RECIPIENTS_SUBMENU_DESC" />
+	</section>
+	<section name="person">
+		<action name="person.version" title="COM_URLPOLLS_PERSONS_EDIT_VERSION" description="COM_URLPOLLS_PERSONS_EDIT_VERSION_DESC" />
+	</section>
+	<section name="poll">
+		<action name="poll.version" title="COM_URLPOLLS_POLLS_EDIT_VERSION" description="COM_URLPOLLS_POLLS_EDIT_VERSION_DESC" />
+	</section>
+	<section name="recipient">
+		<action name="recipient.version" title="COM_URLPOLLS_RECIPIENTS_EDIT_VERSION" description="COM_URLPOLLS_RECIPIENTS_EDIT_VERSION_DESC" />
+	</section>
+</access>
